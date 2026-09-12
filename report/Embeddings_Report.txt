@@ -1,0 +1,25 @@
+Importance of Text Embeddings in Semantic Search and LLM Applications
+
+Introduction
+Text embeddings are numerical representations of sentences that capture semantic meaning. Unlike keyword matching, embeddings allow machines to understand context and relationships between concepts.
+
+Project Summary
+- Collected 20 diverse sentences.
+- Generated embeddings using all-MiniLM-L6-v2.
+- Computed cosine similarity across sentence pairs.
+- Identified the top five most similar pairs.
+- Visualized results with a heatmap and clustering.
+- Saved embeddings and similarity scores in CSV format.
+
+Observations
+- Sentences about technology, including AI, Python, and blockchain, clustered together.
+- Environmental topics, such as the Amazon rainforest, climate change, and UN warnings, showed high similarity.
+- Unrelated domains, such as the human brain and oil prices, had low similarity scores.
+
+Applications
+- Semantic Search: Improves retrieval by meaning, not just keywords.
+- Clustering and Topic Modeling: Groups related content automatically.
+- LLMs: Embeddings help large language models retrieve context, maintain coherence, and answer questions more accurately.
+
+Conclusion
+Embeddings bridge human meaning and machine understanding. This project demonstrates their role in modern NLP systems, making search, recommendation, and conversational AI more intelligent and context-aware.
